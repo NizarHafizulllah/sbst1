@@ -1,0 +1,56 @@
+    .icon_div {
+        padding: 15px;
+        text-align: center;
+        font-size: 12px;
+    }
+    
+    .icon_div:hover {
+        background-color: #e1e1e1;
+    }
+    
+    .icon_div i {
+        display: block;
+        margin: auto;
+        font-size: 24px;
+        color: #777;
+    }
+    
+    .bs-glyphicons {
+        padding-left: 0;
+        padding-bottom: 1px;
+        margin-bottom: 20px;
+    }
+    
+    .bs-glyphicons li {
+        float: left;
+        width: 25%;
+        height: 120px;
+        padding: 15px 20px;
+        font-size: 12px;
+        text-align: center;
+    }
+    
+    @media only screen and (max-width: 660px) {
+        .bs-glyphicons li {
+            height: 130px;
+            width: 50%;
+        }
+    }
+    
+    .bs-glyphicons li:hover {
+        background-color: #e1e1e1;
+        ;
+    }
+    
+    .bs-glyphicons .glyphicon {
+        margin-top: 5px;
+        margin-bottom: 10px;
+        font-size: 24px;
+        color: #777;
+    }
+    
+    .bs-glyphicons .glyphicon-class {
+        display: block;
+        text-align: center;
+        word-wrap: break-word;
+    }

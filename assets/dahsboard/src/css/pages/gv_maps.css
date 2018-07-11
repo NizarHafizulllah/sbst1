@@ -1,0 +1,9 @@
+#world-map,#asia-map{
+    width: 100%;
+    height: 300px;
+}
+
+.jvectormap-zoomin,
+.jvectormap-zoomout {
+    padding: 4px 13px 13px 5px;
+}
