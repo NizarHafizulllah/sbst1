@@ -49,11 +49,11 @@ function ceklogin(){
 
       $_SESSION['userdata'] = $userdata;
     }else if($userdata['level']==3){
-        $userdata['url'] = site_url("superadmin");
+        $userdata['url'] = site_url("super_admin");
               $ret  = array("error"=>false,
                             "message"=>"Login succes",
                             "url"=>$userdata['url']);
-      $userdata['login_admin'] = true;
+      $userdata['login_super_admin'] = true;
 
       $_SESSION['userdata'] = $userdata;       
     }     
@@ -72,6 +72,20 @@ function logout_admin(){
   $this->session->unset_userdata("userdata");
   redirect("login");
 }
+
+function logout_super_admin(){
+  unset($_SESSION['userdata']);
+  $this->session->unset_userdata("userdata");
+  redirect("login");
+}
+
+
+function logout_wilayah(){
+  unset($_SESSION['userdata']);
+  $this->session->unset_userdata("userdata");
+  redirect("login");
+}
+
 
 function cekusername($username){
 
