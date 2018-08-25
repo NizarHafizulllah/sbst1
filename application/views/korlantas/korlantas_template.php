@@ -147,7 +147,7 @@
                             <h4 class="media-heading">
                                 <?php echo $userdata['nama']; ?>
                             </h4>
-                            <p>Admin Wilayah</p>
+                            <p>Admin Korlantas</p>
                         </div>
                     </div>
                 </div>

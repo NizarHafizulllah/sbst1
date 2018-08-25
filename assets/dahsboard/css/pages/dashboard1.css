@@ -1,0 +1,80 @@
+.panel {
+    box-shadow : 0 0 2px #ccc;
+}
+.panel-heading {
+    border : none;
+}
+.panel-title {
+    font-size : 16px;
+    color     : #777;
+}
+/*mail tiles sales, visits etc*/
+.card-box {
+    padding               : 21px 16px 30px;
+    border                : 1px solid rgba(54, 64, 74, 0.12);
+    -webkit-border-radius : 3px;
+    border-radius         : 3px;
+    -moz-border-radius    : 5px;
+    background-clip       : padding-box;
+    margin-bottom         : 25px;
+    background-color      : #ffffff;
+    color                 : #777;
+}
+.widget-bg-color-icon .bg-icon {
+    height                : 80px;
+    width                 : 80px;
+    text-align            : center;
+    -webkit-border-radius : 50%;
+    border-radius         : 50%;
+    -moz-border-radius    : 50%;
+    background-clip       : padding-box;
+}
+.widget-bg-color-icon .bg-icon i {
+    font-size   : 34px;
+    line-height : 65px;
+}
+.widget-bg-color-icon h3 {
+    margin-top : 9px;
+}
+.widget-bg-color-icon p {
+    margin : 0;
+}
+/*sales chart*/
+#sales_chart {
+    height : 300px;
+    width  : 100%;
+}
+.morris-hover.morris-default-style .morris-hover-point {
+    color : #555 !important;
+}
+/*timeline widget*/
+.widget-timeline {
+    color : #555;
+}
+.widget-timeline ul {
+    padding-left : 0;
+}
+.widget-timeline ul li {
+    padding : 18px 3px;
+}
+.widget-timeline img {
+    width         : 39px;
+    height        : 39px;
+    border-radius : 50%;
+}
+.widget-timeline .timeline {
+    padding-left : 51px;
+}
+/*table*/
+.product-details .panel-body {
+    padding-bottom : 0;
+}
+#product-details tbody > tr > td {
+    padding : 13px;
+}
+#product-details tbody > tr > td:last-child {
+    width : 160px;
+}
+#product_status canvas {
+    margin-bottom : -2px;
+}

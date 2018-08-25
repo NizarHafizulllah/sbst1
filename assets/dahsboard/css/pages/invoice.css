@@ -1,0 +1,57 @@
+.panel-heading span {
+    margin-top: -25px;
+    font-size: 15px;
+}
+.invoice_bg {
+    margin  : 15px 0;
+    padding : 20px;
+}
+.table {
+    border       : 1px solid #ccc;
+    table-layout : fixed;
+}
+.table tbody > tr {
+    height : 50px;
+}
+.table-responsive {
+    width : 100%;
+}
+td,
+th {
+    word-wrap : break-word;
+}
+.terms_conditions {
+    list-style : initial;
+}
+.table-condensed > thead > tr > th {
+    padding : 15px 8px;
+    width   : 80px;
+}
+.table-condensed > thead > tr > th:nth-child(2) {
+    max-width : 180px;
+}
+.table-responsive > .table > tbody > tr > td,
+.table-responsive > .table > tfoot > tr > td {
+    padding     : 15px 8px;
+    white-space : normal;
+}
+@media print {
+    .btn-section,
+    .left-side,
+    .no-print,
+    .content-header,
+    .header,
+    #customtable tr > td:last-child, #customtable tr > th:last-child {
+        display : none;
+    }
+    .table-responsive {
+        display : inline-table;
+        width   : 100%;
+    }
+    #invoice_statement {
+        width : 100%;
+    }
+    .right-side {
+        margin-left : 0;
+    }
+}
